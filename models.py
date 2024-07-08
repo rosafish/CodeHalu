@@ -1,8 +1,8 @@
 import requests
 from http import HTTPStatus
-from dashscope import Generation
-import dashscope
-from dashscope.api_entities.dashscope_response import Role
+# from dashscope import Generation
+# import dashscope
+# from dashscope.api_entities.dashscope_response import Role
 import os
 import re
 import json
@@ -12,17 +12,17 @@ import base64
 from tqdm import tqdm
 import numpy as np
 
-from openai import OpenAI, BadRequestError
+# from openai import OpenAI, BadRequestError
 
 import transformers
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 from huggingface_hub import login
-import deepspeed
+# import deepspeed
 from transformers import AutoTokenizer, AutoModelForCausalLM, StoppingCriteria, StoppingCriteriaList
 from typing import List 
-import anthropic
-import erniebot
+# import anthropic
+# import erniebot
 
 erniebot_api_type = 'aistudio'
 erniebot_api_key = ''
@@ -165,47 +165,47 @@ class Claude3:
             return response
         
 
-class GEMINI_PRO:
-    def __init__(self):
-        import google.generativeai as genai
-        # Get Google API Key from environment variable
-#         api_key = os.environ["GOOGLE_API_KEY"]
-        api_key = gen_api_key
-        genai.configure(api_key=api_key)
-        self.genai_package = genai
-        self.client = genai.GenerativeModel('gemini-pro')
+# class GEMINI_PRO:
+#     def __init__(self):
+#         import google.generativeai as genai
+#         # Get Google API Key from environment variable
+# #         api_key = os.environ["GOOGLE_API_KEY"]
+#         api_key = gen_api_key
+#         genai.configure(api_key=api_key)
+#         self.genai_package = genai
+#         self.client = genai.GenerativeModel('gemini-pro')
 
-    def generate(self, prompt, temperature=0.0):
-        # prompt = "You are required to solve a programming problem. Please enclose your code inside a ```python``` block. " \
-        #     "Do not write a main() function. If Call-Based format is used, return the result in an appropriate place instead of printing it.\n\n" \
-        #          + prompt
-        prompt += "\nANSWER:\n"
-        prompt = "You are required to solve a programming problem with python. Please enclose your code inside a ```python``` block. " \
-                 + prompt
+#     def generate(self, prompt, temperature=0.0):
+#         # prompt = "You are required to solve a programming problem. Please enclose your code inside a ```python``` block. " \
+#         #     "Do not write a main() function. If Call-Based format is used, return the result in an appropriate place instead of printing it.\n\n" \
+#         #          + prompt
+#         prompt += "\nANSWER:\n"
+#         prompt = "You are required to solve a programming problem with python. Please enclose your code inside a ```python``` block. " \
+#                  + prompt
 
-        try:
-            response = self.client.generate_content(prompt,
-                generation_config=self.genai_package.types.GenerationConfig(
-                    temperature=temperature
-                )
-            )
-            return response.text,prompt
-        except Exception as e:
-            print(e)
-            return None
+#         try:
+#             response = self.client.generate_content(prompt,
+#                 generation_config=self.genai_package.types.GenerationConfig(
+#                     temperature=temperature
+#                 )
+#             )
+#             return response.text,prompt
+#         except Exception as e:
+#             print(e)
+#             return None
 
-    def extract_code(self, response):
-        pattern = r"```python(.*?)```"
+#     def extract_code(self, response):
+#         pattern = r"```python(.*?)```"
 
-        # response = response.split("###ANSWER:", maxsplit=1)[-1].strip()
+#         # response = response.split("###ANSWER:", maxsplit=1)[-1].strip()
         
-        # Use re.DOTALL to make '.' match any character including a newline
-        matches = re.findall(pattern, response, re.DOTALL)
+#         # Use re.DOTALL to make '.' match any character including a newline
+#         matches = re.findall(pattern, response, re.DOTALL)
 
-        if matches:
-            return matches[0]
-        else:
-            return response
+#         if matches:
+#             return matches[0]
+#         else:
+#             return response
 
 class Wenxin: 
     def __init__(self):
@@ -245,50 +245,50 @@ class Wenxin:
         else:
             return response
 
-class Qwen():
-    def __init__(self):
-        dashscope.api_key = '' # 将 YOUR_API_KEY 改成您创建的 API-KEY
+# class Qwen():
+#     def __init__(self):
+#         dashscope.api_key = '' # 将 YOUR_API_KEY 改成您创建的 API-KEY
         
     
 
-    def generate(self, prompt, temperature=0.0):
+#     def generate(self, prompt, temperature=0.0):
      
-        prompt += "\nANSWER:\n"
-        prompt = "You are required to solve a programming problem with python. Please enclose your code inside a ```python``` block. " \
-                 + prompt
+#         prompt += "\nANSWER:\n"
+#         prompt = "You are required to solve a programming problem with python. Please enclose your code inside a ```python``` block. " \
+#                  + prompt
         
-        messages = [{'role': 'user', 'content': prompt}]
-        gen = Generation()
+#         messages = [{'role': 'user', 'content': prompt}]
+#         gen = Generation()
         
-        try:
-            response = gen.call(
-            Generation.Models.qwen_turbo,
-            messages=messages,
-            temperature = temperature,
-            result_format='message', # 设置结果为消息格式
-            )
-            if response ==None:
-                response = ''
-            else:
-                response = response.output.choices[0]['message']['content']
-            return response,prompt
-        except Exception as e:
-            print(e)
-            return None
+#         try:
+#             response = gen.call(
+#             Generation.Models.qwen_turbo,
+#             messages=messages,
+#             temperature = temperature,
+#             result_format='message', # 设置结果为消息格式
+#             )
+#             if response ==None:
+#                 response = ''
+#             else:
+#                 response = response.output.choices[0]['message']['content']
+#             return response,prompt
+#         except Exception as e:
+#             print(e)
+#             return None
 
         
-    def extract_code(self, response):
-        pattern = r"```python(.*?)```"
+#     def extract_code(self, response):
+#         pattern = r"```python(.*?)```"
 
-        # response = response.split("###ANSWER:", maxsplit=1)[-1].strip()
+#         # response = response.split("###ANSWER:", maxsplit=1)[-1].strip()
         
-        # Use re.DOTALL to make '.' match any character including a newline
-        matches = re.findall(pattern, response, re.DOTALL)
+#         # Use re.DOTALL to make '.' match any character including a newline
+#         matches = re.findall(pattern, response, re.DOTALL)
 
-        if matches:
-            return matches[-1]
-        else:
-            return response
+#         if matches:
+#             return matches[-1]
+#         else:
+#             return response
 
 
 class ChatGLM():

@@ -5,7 +5,8 @@ import json
 
 from tqdm import tqdm
  
-from models import GPT4,GPT3_5, GEMINI_PRO,CodeLLaMA_7b,DeepSeekCoder,WizardCoder,StarCoder,MagicCoder,ChatGLM,Qwen,Wenxin,CodeGeeX, Gemma, Mixtral_8x_7B, Mixtral_7B, StarCoder2, Llama2, Claude3,Llama3 
+# from models import GPT4,GPT3_5, GEMINI_PRO,CodeLLaMA_7b,DeepSeekCoder,WizardCoder,StarCoder,MagicCoder,ChatGLM,Qwen,Wenxin,CodeGeeX, Gemma, Mixtral_8x_7B, Mixtral_7B, StarCoder2, Llama2, Claude3,Llama3 
+from models import CodeLLaMA_7b
 from utils import load_problems
 
 from datasets import load_dataset
@@ -54,44 +55,45 @@ def generate_prompt(problem):
 def main(args):
     os.makedirs(os.path.dirname(args.save_path), exist_ok=True)
     
-    if args.model == "gpt4":
-        model = GPT4()
-    elif args.model == "gpt3.5":
-        model = GPT3_5()
-    elif args.model == "gemini_pro":
-        model = GEMINI_PRO()
-    elif args.model == "codellama_7b":
+    # if args.model == "gpt4":
+    #     model = GPT4()
+    # elif args.model == "gpt3.5":
+    #     model = GPT3_5()
+    # elif args.model == "gemini_pro":
+    #     model = GEMINI_PRO()
+    # elif args.model == "codellama_7b":
+    if args.model == "codellama_7b":
         model = CodeLLaMA_7b()
-    elif args.model == "deepseekcoder":
-        model = DeepSeekCoder()
-    elif args.model == "wizardcoder":
-        model = WizardCoder()
-    elif args.model == "starcoder":
-        model = StarCoder()
-    elif args.model == "magiccoder":
-        model = MagicCoder()
-    elif args.model == "chatglm":
-        model = ChatGLM()
-    elif args.model == "qwen":
-        model = Qwen()
-    elif args.model == "codegeex":
-        model = CodeGeeX()
-    elif args.model == "wenxin":
-        model = Wenxin()
-    elif args.model == "gemma":
-        model = Gemma()
-    elif args.model == "mixtral_8x_7b":
-        model = Mixtral_8x_7B()
-    elif args.model == "mixtral_7b":
-        model = Mixtral_7B()
-    elif args.model == "starcoder2":
-        model = StarCoder2()
-    elif args.model == "llama2":
-        model = Llama2()
-    elif args.model == "claude3":
-        model = Claude3()
-    elif args.model == "llama3":
-        model = Llama3()
+    # elif args.model == "deepseekcoder":
+    #     model = DeepSeekCoder()
+    # elif args.model == "wizardcoder":
+    #     model = WizardCoder()
+    # elif args.model == "starcoder":
+    #     model = StarCoder()
+    # elif args.model == "magiccoder":
+    #     model = MagicCoder()
+    # elif args.model == "chatglm":
+    #     model = ChatGLM()
+    # elif args.model == "qwen":
+    #     model = Qwen()
+    # elif args.model == "codegeex":
+    #     model = CodeGeeX()
+    # elif args.model == "wenxin":
+    #     model = Wenxin()
+    # elif args.model == "gemma":
+    #     model = Gemma()
+    # elif args.model == "mixtral_8x_7b":
+    #     model = Mixtral_8x_7B()
+    # elif args.model == "mixtral_7b":
+    #     model = Mixtral_7B()
+    # elif args.model == "starcoder2":
+    #     model = StarCoder2()
+    # elif args.model == "llama2":
+    #     model = Llama2()
+    # elif args.model == "claude3":
+    #     model = Claude3()
+    # elif args.model == "llama3":
+    #     model = Llama3()
     else:
         raise ValueError(f"Unknown model {args.model}")
     
@@ -144,7 +146,7 @@ def main(args):
                 file.write('\n')  # Add a newline for separation between entries
             response = model.extract_code(response)
             print('----------------------------------------\n',response,'\n---------------------------------------------')   
-            to_generate[problem["task_id"]] -= 1
+            to_generate[problem["id"]] -= 1
             
 
 if __name__ == '__main__':
