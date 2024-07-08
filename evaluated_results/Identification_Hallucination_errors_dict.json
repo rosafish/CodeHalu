@@ -1,0 +1,164 @@
+{
+    "Correct": {
+        "values": [
+            "Correct"
+        ],
+        "count": 59
+    },
+    "Logic_Deviation": {
+        "values": [
+            "Logic_Deviation"
+        ],
+        "count": 522
+    },
+    "IndexError": {
+        "values": [
+            "  File \"<string>\", line 26, in code\nIndexError: list index out of range",
+            "  File \"<string>\", line 48, in code\n  File \"<string>\", line 13, in trash\nIndexError: list assignment index out of range",
+            "  File \"<string>\", line 25, in code\nIndexError: list assignment index out of range",
+            "  File \"<string>\", line 16, in code\nIndexError: list index out of range",
+            "  File \"<string>\", line 40, in code\n  File \"<string>\", line 20, in split_tree\nIndexError: list index out of range",
+            "  File \"<string>\", line 26, in code\n  File \"<string>\", line 15, in solve\nIndexError: list assignment index out of range",
+            "  File \"<string>\", line 14, in code\nIndexError: list index out of range",
+            "  File \"<string>\", line 18, in code\nIndexError: list index out of range",
+            "  File \"<string>\", line 43, in code\n  File \"<string>\", line 16, in solve\n  File \"<string>\", line 31, in get_subtree\nIndexError: list index out of range",
+            "  File \"<string>\", line 54, in code\n  File \"<string>\", line 34, in solve\nIndexError: string index out of range",
+            "  File \"<string>\", line 43, in code\n  File \"<string>\", line 23, in solve\nIndexError: pop from empty list",
+            "  File \"<string>\", line 29, in code\nIndexError: list index out of range",
+            "  File \"<string>\", line 11, in code\n  File \"<string>\", line 11, in <genexpr>\n  File \"<string>\", line 11, in <genexpr>\nIndexError: list index out of range",
+            "  File \"<string>\", line 37, in code\n  File \"<string>\", line 22, in split_tree\nIndexError: list index out of range"
+        ],
+        "count": 64
+    },
+    "TypeError": {
+        "values": [
+            "  File \"<string>\", line 35, in code\nTypeError: cannot unpack non-iterable NoneType object",
+            "  File \"<string>\", line 27, in code\nTypeError: 'NoneType' object is not subscriptable",
+            "  File \"<string>\", line 49, in code\n  File \"<string>\", line 35, in play_game\n  File \"<string>\", line 35, in <genexpr>\nTypeError: 'in <string>' requires string as left operand, not int",
+            "  File \"<string>\", line 71, in code\n  File \"<string>\", line 20, in solve\n  File \"<string>\", line 34, in is_valid\nTypeError: 'int' object is not iterable",
+            "  File \"<string>\", line 46, in code\nTypeError: cannot unpack non-iterable int object",
+            "  File \"<string>\", line 15, in code\nTypeError: list indices must be integers or slices, not str",
+            "  File \"<string>\", line 27, in code\nTypeError: cannot unpack non-iterable int object",
+            "  File \"<string>\", line 24, in code\nTypeError: pow 3rd argument not allowed unless all arguments are integers"
+        ],
+        "count": 106
+    },
+    "EOFError": {
+        "values": [
+            "  File \"<string>\", line 25, in code\n  File \"<string>\", line 25, in <listcomp>\nEOFError: EOF when reading a line",
+            "  File \"<string>\", line 27, in code\nEOFError: EOF when reading a line",
+            "  File \"<string>\", line 25, in code\nEOFError: EOF when reading a line"
+        ],
+        "count": 8
+    },
+    "ValueError": {
+        "values": [
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '0 5'",
+            "  File \"<string>\", line 9, in code\nValueError: not enough values to unpack",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '0 0'",
+            "  File \"<string>\", line 48, in code\n  File \"<string>\", line 48, in <listcomp>\nValueError: invalid literal for int with base 10: '57 1 0'",
+            "  File \"<string>\", line 16, in code\nValueError: too many values to unpack",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '0 1'",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '1446 2090916'",
+            "  File \"<string>\", line 16, in code\nValueError: invalid literal for int with base 10: '1 297404206755 82096176217 14663411 187389745 21385 704393'",
+            "  File \"<string>\", line 20, in code\nValueError: invalid literal for int with base 10: '1 3 2'",
+            "  File \"<string>\", line 38, in code\nValueError: invalid literal for int with base 10: '2 4'",
+            "  File \"<string>\", line 22, in code\n  File \"<string>\", line 16, in solve\nValueError: max arg is an empty sequence",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '1 1'",
+            "  File \"<string>\", line 16, in code\nValueError: invalid literal for int with base 10: '30 10 20'",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '2 0'",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '53212775 61830464'",
+            "  File \"<string>\", line 39, in code\nValueError: not enough values to unpack",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '0 100000000'",
+            "  File \"<string>\", line 28, in code\n  File \"<string>\", line 28, in <listcomp>\nValueError: invalid literal for int with base 10: '3 1'",
+            "  File \"<string>\", line 16, in code\nValueError: invalid literal for int with base 10: '6 20 1 25'",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nValueError: invalid literal for int with base 10: '4965 24651225'",
+            "  File \"<string>\", line 48, in code\n  File \"<string>\", line 48, in <listcomp>\nValueError: invalid literal for int with base 10: '82 0 0'",
+            "  File \"<string>\", line 20, in code\nValueError: invalid literal for int with base 10: '1 2'",
+            "  File \"<string>\", line 14, in code\nValueError: too many values to unpack",
+            "  File \"<string>\", line 20, in code\nValueError: invalid literal for int with base 10: '5 2 3 4 1'"
+        ],
+        "count": 50
+    },
+    "NameError": {
+        "values": [
+            "  File \"<string>\", line 11, in code\nNameError: name 'gcd_common' is not defined",
+            "  File \"<string>\", line 22, in code\n  File \"<string>\", line 12, in is_equivalent\nNameError: name 'concat' is not defined",
+            "  File \"<string>\", line 34, in code\n  File \"<string>\", line 12, in count_subsets\nNameError: name 'itertools' is not defined",
+            "  File \"<string>\", line 21, in code\n  File \"<string>\", line 10, in depth\nNameError: name 'maxdepth' is not defined",
+            "  File \"<string>\", line 15, in code\nNameError: name 'itertools' is not defined",
+            "  File \"<string>\", line 41, in code\nNameError: name 'other_boss' is not defined",
+            "  File \"<string>\", line 10, in code\nNameError: name 'random' is not defined",
+            "  File \"<string>\", line 21, in code\nNameError: name 'gcd' is not defined",
+            "  File \"<string>\", line 14, in code\nNameError: name 'random' is not defined"
+        ],
+        "count": 43
+    },
+    "UnboundLocalError": {
+        "values": [
+            "local variable 'method' referenced before assignment",
+            "local variable 'is_swap_free' referenced before assignment",
+            "local variable 'gcd' referenced before assignment",
+            "local variable 'int' referenced before assignment",
+            "local variable 'r' referenced before assignment"
+        ],
+        "count": 61
+    },
+    "KeyError": {
+        "values": [
+            "  File \"<string>\", line 17, in code\nKeyError: 7",
+            "  File \"<string>\", line 18, in code\nKeyError: 10",
+            "  File \"<string>\", line 17, in code\nKeyError: 3",
+            "  File \"<string>\", line 43, in code\nKeyError: 0",
+            "  File \"<string>\", line 16, in code\nKeyError: 5",
+            "  File \"<string>\", line 14, in code\nKeyError: 7",
+            "  File \"<string>\", line 14, in code\nKeyError: 5",
+            "  File \"<string>\", line 17, in code\nKeyError: 6",
+            "  File \"<string>\", line 16, in code\nKeyError: 42",
+            "  File \"<string>\", line 16, in code\nKeyError: 15",
+            "  File \"<string>\", line 17, in code\nKeyError: 4",
+            "  File \"<string>\", line 16, in code\nKeyError: 3",
+            "  File \"<string>\", line 15, in code\nKeyError: 14",
+            "  File \"<string>\", line 16, in code\nKeyError: 6",
+            "  File \"<string>\", line 16, in code\nKeyError: 8",
+            "  File \"<string>\", line 16, in code\nKeyError: 9",
+            "  File \"<string>\", line 14, in code\nKeyError: 14",
+            "  File \"<string>\", line 15, in code\nKeyError: 10",
+            "  File \"<string>\", line 16, in code\nKeyError: 7",
+            "  File \"<string>\", line 18, in code\nKeyError: 8",
+            "  File \"<string>\", line 17, in code\nKeyError: 5",
+            "  File \"<string>\", line 14, in code\nKeyError: 9",
+            "  File \"<string>\", line 16, in code\nKeyError: 4",
+            "  File \"<string>\", line 17, in code\nKeyError: 8",
+            "  File \"<string>\", line 17, in code\nKeyError: 11",
+            "  File \"<string>\", line 17, in code\nKeyError: 9",
+            "  File \"<string>\", line 29, in code\nKeyError: 0",
+            "  File \"<string>\", line 15, in code\nKeyError: 5",
+            "  File \"<string>\", line 18, in code\nKeyError: 9"
+        ],
+        "count": 249
+    },
+    "TimeoutException": {
+        "values": [
+            "  File \"<string>\", line 65, in code\n  File \"<string>\", line 59, in main\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 24, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 25, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 16, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 13, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 11, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException"
+        ],
+        "count": 9
+    },
+    "Logic Breakdown": {
+        "values": [
+            "Logic Breakdown"
+        ],
+        "count": 44
+    },
+    "TimeError": {
+        "values": [
+            "global timeout"
+        ],
+        "count": 80
+    }
+}

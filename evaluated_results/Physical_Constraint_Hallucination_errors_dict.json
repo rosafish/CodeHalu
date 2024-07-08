@@ -1,0 +1,152 @@
+{
+    "AssertionError": {
+        "values": [
+            "  File \"<string>\", line 16, in code\nAssertionError"
+        ],
+        "count": 10
+    },
+    "TimeoutException": {
+        "values": [
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 14, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 11, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 281 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 14, in code\n  File \"<string>\", line 14, in <genexpr>\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 97 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 472 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 99 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 149 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 22, in code\n  File \"<string>\", line 13, in climb_stairs\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 22, in code\n  File \"<string>\", line 15, in climb_stairs\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 134 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 27, in code\n  File \"<string>\", line 16, in solve\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 29, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 19, in code\n  File \"<string>\", line 14, in count_pairs\n  File \"<string>\", line 7, in xor\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 396 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 10, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 267 more times]\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line -1, in code\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException"
+        ],
+        "count": 67
+    },
+    "Logic_Deviation": {
+        "values": [
+            "Logic_Deviation"
+        ],
+        "count": 86
+    },
+    "TypeError": {
+        "values": [
+            "  File \"<string>\", line 19, in code\nTypeError: 'tuple' object does not support item assignment"
+        ],
+        "count": 50
+    },
+    "MemoryError": {
+        "values": [
+            "  File \"<string>\", line 8, in code\nMemoryError",
+            "  File \"<string>\", line 28, in code\n  File \"<string>\", line 7, in get_max_weight\nMemoryError",
+            "  File \"<string>\", line 8, in code\n  File \"<string>\", line 8, in <listcomp>\nMemoryError"
+        ],
+        "count": 54
+    },
+    "Correct": {
+        "values": [
+            "Correct"
+        ],
+        "count": 4
+    },
+    "ValueError": {
+        "values": [
+            "  File \"<string>\", line 6, in code\n  File \"<string>\", line 6, in <listcomp>\nValueError: invalid literal for int with base 10: '1 2 3'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 1000000000000000 12'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '277677243 142088706 8846851 253942280'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 10000000 100000000000000000 100000'",
+            "  File \"<string>\", line 6, in code\n  File \"<string>\", line 6, in <listcomp>\nValueError: invalid literal for int with base 10: '0 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 10000000000 12'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 100000456 10000000000000000 54165'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 100000000 100000000000000000 10000'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 1000000000000000000 1'",
+            "  File \"<string>\", line 6, in code\n  File \"<string>\", line 6, in <listcomp>\nValueError: invalid literal for int with base 10: '206158430208 206162624513 68719476737 137506062337 206162624513 4194305 68719476737 206225539072 137443147777 68719476736'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 10000 1000000000000000000 10000'",
+            "  File \"<string>\", line 6, in code\n  File \"<string>\", line 6, in <listcomp>\nValueError: invalid literal for int with base 10: '3 3 5 5 6 6 1 2 4 7'",
+            "  File \"<string>\", line 41, in code\nValueError: not enough values to unpack",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000 1000000000000000000 100000'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 100000000 10000000000000 1000000000'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 10000000000000 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '2 1 1000000006 1'",
+            "  File \"<string>\", line 6, in code\n  File \"<string>\", line 6, in <listcomp>\nValueError: invalid literal for int with base 10: '3 2 3 6'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '114514 114514 114514 114514'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 100000000 10000000000000000 10000'",
+            "  File \"<string>\", line 27, in code\nValueError: invalid literal for int with base 10: '2 -1 -1'",
+            "  File \"<string>\", line 6, in code\n  File \"<string>\", line 6, in <listcomp>\nValueError: invalid literal for int with base 10: '0 0'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 192783664 1000000000000000000 596438713'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 999999999 999999999999999999 12345678'",
+            "  File \"<string>\", line 21, in code\nValueError: invalid literal for int with base 10: '4 111001100101001'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 1000000000000000000 12'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 1000000000000 12'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 100000000000000000 1000000000'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1 352875518515340737 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1171281 1000000000000000000 100'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '528774798 650132512 6406119 36569714'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 10000000000000 12'",
+            "  File \"<string>\", line 27, in code\nValueError: invalid literal for int with base 10: '921072710 6 8'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 10000 1000000000000000000 5'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '1 1000000000 1000000000000000000 1000000000'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '978837295 606974665 846646545585165081 745145208'",
+            "  File \"<string>\", line 27, in code\nValueError: invalid literal for int with base 10: '15 -1 -1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '475965351 844435993 96338 972382431'"
+        ],
+        "count": 45
+    },
+    "IndexError": {
+        "values": [
+            "  File \"<string>\", line 32, in code\n  File \"<string>\", line 25, in solve\nIndexError: list index out of range",
+            "  File \"<string>\", line 14, in code\n  File \"<string>\", line 14, in <genexpr>\nIndexError: list index out of range",
+            "  File \"<string>\", line 24, in code\n  File \"<string>\", line 18, in coprime_subsequences\nIndexError: list index out of range",
+            "  File \"<string>\", line 59, in code\n  File \"<string>\", line 15, in solve\n  File \"<string>\", line 45, in has_path\nIndexError: list index out of range"
+        ],
+        "count": 13
+    },
+    "Logic Breakdown": {
+        "values": [
+            "Logic Breakdown"
+        ],
+        "count": 10
+    },
+    "ZeroDivisionError": {
+        "values": [
+            "  File \"<string>\", line 24, in code\nZeroDivisionError: integer division or modulo by zero"
+        ],
+        "count": 2
+    },
+    "NameError": {
+        "values": [
+            "  File \"<string>\", line 13, in code\nNameError: name 'random' is not defined",
+            "  File \"<string>\", line 13, in code\n  File \"<string>\", line 11, in f\nNameError: name 'gcd' is not defined"
+        ],
+        "count": 61
+    },
+    "RecursionError": {
+        "values": [
+            "  File \"<string>\", line 13, in code\n  File \"<string>\", line 11, in f\n  File \"<string>\", line 11, in f\n  File \"<string>\", line 11, in f\n  [Previous line repeated 978 more times]\n  File \"<string>\", line 8, in f\nRecursionError: maximum recursion depth exceeded in comparison",
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  File \"<string>\", line 15, in f\n  [Previous line repeated 978 more times]\n  File \"<string>\", line 8, in f\nRecursionError: maximum recursion depth exceeded in comparison",
+            "  File \"<string>\", line 16, in code\n  File \"<string>\", line 13, in count_permutations\n  File \"<string>\", line 13, in count_permutations\n  File \"<string>\", line 13, in count_permutations\n  [Previous line repeated 978 more times]\n  File \"<string>\", line 8, in count_permutations\nRecursionError: maximum recursion depth exceeded in comparison",
+            "  File \"<string>\", line 21, in code\n  File \"<string>\", line 14, in f\n  File \"<string>\", line 14, in f\n  File \"<string>\", line 14, in f\n  [Previous line repeated 978 more times]\n  File \"<string>\", line 8, in f\nRecursionError: maximum recursion depth exceeded in comparison",
+            "  File \"<string>\", line 18, in code\n  File \"<string>\", line 11, in factorial\n  File \"<string>\", line 11, in factorial\n  File \"<string>\", line 11, in factorial\n  [Previous line repeated 978 more times]\n  File \"<string>\", line 8, in factorial\nRecursionError: maximum recursion depth exceeded in comparison"
+        ],
+        "count": 43
+    },
+    "UnboundLocalError": {
+        "values": [
+            "local variable 'factorial' referenced before assignment",
+            "local variable 'method' referenced before assignment"
+        ],
+        "count": 33
+    },
+    "EOFError": {
+        "values": [
+            "  File \"<string>\", line 9, in code\nEOFError: EOF when reading a line"
+        ],
+        "count": 3
+    }
+}

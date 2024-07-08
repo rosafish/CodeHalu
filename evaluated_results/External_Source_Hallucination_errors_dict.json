@@ -1,0 +1,62 @@
+{
+    "Logic_Deviation": {
+        "values": [
+            "Logic_Deviation"
+        ],
+        "count": 269
+    },
+    "TimeoutException": {
+        "values": [
+            "  File \"<string>\", line 15, in code\n  File \"<string>\", line 15, in <listcomp>\n  File \"<string>\", line 15, in <genexpr>\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException",
+            "  File \"<string>\", line 18, in code\n  File \"<string>\", line 11, in get_semi_common_multiples\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException"
+        ],
+        "count": 29
+    },
+    "Correct": {
+        "values": [
+            "Correct"
+        ],
+        "count": 127
+    },
+    "Logic Breakdown": {
+        "values": [
+            "Logic Breakdown"
+        ],
+        "count": 24
+    },
+    "ValueError": {
+        "values": [
+            "  File \"<string>\", line 27, in code\nValueError: not enough values to unpack",
+            "  File \"<string>\", line 13, in code\nValueError: too many values to unpack"
+        ],
+        "count": 5
+    },
+    "IndexError": {
+        "values": [
+            "  File \"<string>\", line 23, in code\n  File \"<string>\", line 17, in main\nIndexError: list index out of range",
+            "  File \"<string>\", line 17, in code\nIndexError: list index out of range"
+        ],
+        "count": 13
+    },
+    "TypeError": {
+        "values": [
+            "  File \"<string>\", line 17, in code\nTypeError: code.<locals>.read_fraction takes 1 positional argument but 2 were given",
+            "  File \"<string>\", line 23, in code\n  File \"<string>\", line 17, in main\nTypeError: unsupported operand type for +: 'int' and 'ellipsis'",
+            "  File \"<string>\", line 44, in code\n  File \"<string>\", line 9, in get_subnet_mask\nTypeError: unhashable type: 'list'"
+        ],
+        "count": 33
+    },
+    "NameError": {
+        "values": [
+            "  File \"<string>\", line 30, in code\n  File \"<string>\", line 18, in main\nNameError: name 'Fraction' is not defined"
+        ],
+        "count": 8
+    },
+    "UnboundLocalError": {
+        "values": [
+            "local variable 'method' referenced before assignment",
+            "local variable 'map' referenced before assignment"
+        ],
+        "count": 11
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "Logic_Deviation": {
+        "values": [
+            "Logic_Deviation"
+        ],
+        "count": 1878
+    },
+    "Correct": {
+        "values": [
+            "Correct"
+        ],
+        "count": 423
+    },
+    "TypeError": {
+        "values": [
+            "  File \"<string>\", line 13, in code\nTypeError: 'NoneType' object is not callable",
+            "  File \"<string>\", line 11, in code\nTypeError: 'NoneType' object is not callable",
+            "  File \"<string>\", line 14, in code\nTypeError: 'NoneType' object is not callable"
+        ],
+        "count": 16
+    },
+    "ZeroDivisionError": {
+        "values": [
+            "  File \"<string>\", line 11, in code\nZeroDivisionError: integer division or modulo by zero"
+        ],
+        "count": 1
+    },
+    "Logic Breakdown": {
+        "values": [
+            "Logic Breakdown"
+        ],
+        "count": 3
+    },
+    "NameError": {
+        "values": [
+            "  File \"<string>\", line 33, in code\n  File \"<string>\", line 7, in compare_numbers\n  File \"<string>\", line 23, in convert_to_decimal\nNameError: name 'math' is not defined",
+            "  File \"<string>\", line 15, in code\nNameError: name 'S2' is not defined"
+        ],
+        "count": 48
+    },
+    "UnboundLocalError": {
+        "values": [
+            "local variable 'i' referenced before assignment",
+            "local variable 'set' referenced before assignment"
+        ],
+        "count": 7
+    },
+    "ValueError": {
+        "values": [
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 1 0 0 0 0 0 0 0 0 0'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 0 0 0 0 0 0 0 0 0 0 0 0 0 0'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 0 0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 0 0 1 0 0'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 1 0 1 0 1 0 1 1 1 0 0 1 0 0 1 1 1 1 0 1 1 0 1 1 1 0 1 0 0 0 1 1 0 1 1 0 1 0 1 0 0 1 0 0 0 1 1 0 1'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '-++-'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 1 0 0 0 0 0 0 1 0 0 0 1 0 1'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '+-+-+'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '--+-'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '----+-+--++---++---++-+-----+--'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 0 0 0 0'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '+'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '-+++---+++++++++++++-++-++++++-++-+-+++-'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '+--+'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 0 0 0 0 0 0 0 0 0'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '-'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '--++'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '-+++--+-++--+-+--+-+'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '--'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '-++'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '+--'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 0 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '---+'",
+            "  File \"<string>\", line 30, in code\nValueError: not enough values to unpack",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '0 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '+-'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '++--'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '----'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1 1 1 1 1'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '-+--'",
+            "  File \"<string>\", line 13, in code\nValueError: invalid literal for int with base 10: '1 1 0 1 1 0 0 0 1 0 0'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '++-++--+++++-+++++---+++-++-++-'",
+            "  File \"<string>\", line 5, in code\nValueError: invalid literal for int with base 10: '---'"
+        ],
+        "count": 47
+    },
+    "KeyError": {
+        "values": [
+            "  File \"<string>\", line 38, in code\nKeyError: 0"
+        ],
+        "count": 2
+    },
+    "IndexError": {
+        "values": [
+            "  File \"<string>\", line 35, in code\n  File \"<string>\", line 20, in solve\nIndexError: list index out of range",
+            "  File \"<string>\", line 16, in code\nIndexError: string index out of range",
+            "  File \"<string>\", line 18, in code\nIndexError: list index out of range"
+        ],
+        "count": 7
+    },
+    "TimeoutException": {
+        "values": [
+            "  File \"<string>\", line 17, in code\n  File \"<string>\", line 17, in <genexpr>\n  File \"/mnt/ebs/data/CodeHalu/testing_utils.py\", line 38, in timeout_handler\n    raise TimeoutException\ntesting_utils.TimeoutException"
+        ],
+        "count": 1
+    }
+}
