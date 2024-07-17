@@ -1,0 +1,21 @@
+{
+    "TypeError": {
+        "values": [
+            "  File \"<string>\", line 8, in code\nTypeError: 'float' object cannot be interpreted as an integer",
+            "  File \"<string>\", line 26, in code\nTypeError: 'NoneType' object is not callable"
+        ],
+        "count": 4
+    },
+    "Logic_Deviation": {
+        "values": [
+            "Logic_Deviation"
+        ],
+        "count": 4
+    },
+    "Correct": {
+        "values": [
+            "Correct"
+        ],
+        "count": 2
+    }
+}

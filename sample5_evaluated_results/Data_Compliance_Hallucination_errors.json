@@ -1,0 +1,92 @@
+{
+    "2921": {
+        "{\"inputs\": [\"10.00 9.0 2\\nfire 2 1/1 4.00\\nwater 10 1/2 2.00\\n\"], \"outputs\": [\"fire 2\\nwater 1\\n\"]}": [
+            [
+                {
+                    "name": "TypeError",
+                    "value": "  File \"<string>\", line 8, in code\nTypeError: 'float' object cannot be interpreted as an integer"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"2.00 3.0 3\\nfirewater 1 1/1 1.00\\nwindwater 1 1/1 1.00\\nearthwater 1 1/1 1.00\\n\"], \"outputs\": [\"IMPOSSIBLE\\n\"]}": [
+            [
+                {
+                    "name": "TypeError",
+                    "value": "  File \"<string>\", line 8, in code\nTypeError: 'float' object cannot be interpreted as an integer"
+                }
+            ]
+        ]
+    },
+    "75": {
+        "{\"inputs\": [\"10 10\\n..........\\n..........\\n....*.....\\n..........\\n..........\\n..........\\n....*.....\\n....*.....\\n....*.....\\n..........\\n\"], \"outputs\": [\"YES\\n1 5\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"10 10\\n..........\\n..........\\n.**....***\\n..........\\n..........\\n..........\\n..........\\n..........\\n..........\\n..........\\n\"], \"outputs\": [\"YES\\n3 2\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "401": {
+        "{\"inputs\": [\"2 3\\n4 2\\n5 7 6\\n\"], \"outputs\": [\"25\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"1 1\\n9\\n1\\n\"], \"outputs\": [\"19\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "618": {
+        "{\"inputs\": [\"AC|T\\nL\\n\"], \"outputs\": [\"AC|TL\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"W|T\\nF\\n\"], \"outputs\": [\"Impossible\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ]
+    },
+    "792": {
+        "{\"inputs\": [\"3 4\\n-10 0 20\\n\"], \"outputs\": [\"-1\\n\"]}": [
+            [
+                {
+                    "name": "TypeError",
+                    "value": "  File \"<string>\", line 26, in code\nTypeError: 'NoneType' object is not callable"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"5 10\\n-8 -24 0 -22 12\\n\"], \"outputs\": [\"1\\n\"]}": [
+            [
+                {
+                    "name": "TypeError",
+                    "value": "  File \"<string>\", line 26, in code\nTypeError: 'NoneType' object is not callable"
+                }
+            ]
+        ]
+    }
+}

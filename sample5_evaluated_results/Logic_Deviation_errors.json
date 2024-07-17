@@ -1,0 +1,92 @@
+{
+    "189": {
+        "{\"inputs\": [\"3\\n10 1 4\\n\"], \"outputs\": [\"3 7\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"5\\n1 1 2 2 3\\n\"], \"outputs\": [\"2 0\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "199": {
+        "{\"inputs\": [\"3 3\\n4 3 5\\n\"], \"outputs\": [\"3\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"3 4\\n5 3 4\\n\"], \"outputs\": [\"2\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "226": {
+        "{\"inputs\": [\"3\\n141 592 653\\n\"], \"outputs\": [\"653 733\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"5\\n10 21 10 21 10\\n\"], \"outputs\": [\"31 41\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "329": {
+        "{\"inputs\": [\"ihimeitimrmhriemsjhrtjtijtesmhemnmmrsetmjttthtjhnnmirtimne\\n\"], \"outputs\": [\"1\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"hsntijjetmehejtsitnthietssmeenjrhhetsnjrsethisjrtrhrierjtmimeenjnhnijeesjttrmn\\n\"], \"outputs\": [\"3\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "434": {
+        "{\"inputs\": [\"3\\n999999999 -1 1000000000\\n\"], \"outputs\": [\"2\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"9\\n8 6 4 2 1 4 7 10 2\\n\"], \"outputs\": [\"3\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    }
+}

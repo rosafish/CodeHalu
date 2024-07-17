@@ -1,0 +1,92 @@
+{
+    "473": {
+        "{\"inputs\": [\"05:50\\n05:44\\n\"], \"outputs\": [\"00:06\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"00:00\\n01:00\\n\"], \"outputs\": [\"23:00\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ]
+    },
+    "3170": {
+        "{\"inputs\": [\"23456789TJ23456789TJA89Q66JK37T2A4AQK3AK5T8Q24K97JQ5\\n\"], \"outputs\": [\"Theta wins\\n\"]}": [
+            [
+                {
+                    "name": "IndexError",
+                    "value": "  File \"<string>\", line 48, in code\n  File \"<string>\", line 13, in trash\nIndexError: list assignment index out of range"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"89724TJTA67K4J87Q8T6Q7J2324T558KA99A3KA356QJ6523QK49\\n\"], \"outputs\": [\"Theta wins\\n\"]}": [
+            [
+                {
+                    "name": "IndexError",
+                    "value": "  File \"<string>\", line 48, in code\n  File \"<string>\", line 13, in trash\nIndexError: list assignment index out of range"
+                }
+            ]
+        ]
+    },
+    "3339": {
+        "{\"inputs\": [\"4 5\\n1 2\\n1 3\\n1 4\\n2 3\\n2 4\\n\"], \"outputs\": [\"4\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"2 1\\n1 2\\n\"], \"outputs\": [\"1\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "66": {
+        "{\"inputs\": [\"10 3 2\\n\"], \"outputs\": [\"3/10\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"7 1 2\\n\"], \"outputs\": [\"3/7\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "643": {
+        "{\"inputs\": [\"4\\n3 10 1 2\\n7 14 3 8\\n20 70 2 7\\n5 6 1 1\\n\"], \"outputs\": [\"4\\n10\\n0\\n-1\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"8\\n0 1 0 1\\n0 2 1 2\\n0 3 1 1\\n1 2 0 1\\n1 2 1 1\\n2 2 0 1\\n3 3 1 2\\n4 4 1 1\\n\"], \"outputs\": [\"0\\n2\\n-1\\n-1\\n-1\\n-1\\n3\\n0\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    }
+}

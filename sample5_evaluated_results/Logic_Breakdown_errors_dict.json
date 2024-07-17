@@ -1,0 +1,27 @@
+{
+    "ValueError": {
+        "values": [
+            "  File \"<string>\", line 74, in code\nValueError: invalid literal for int with base 10: '0 0'",
+            "  File \"<string>\", line 53, in code\n  File \"<string>\", line 31, in evaluate_formula\nValueError: '3' is not in list"
+        ],
+        "count": 4
+    },
+    "Correct": {
+        "values": [
+            "Correct"
+        ],
+        "count": 3
+    },
+    "Logic Breakdown": {
+        "values": [
+            "Logic Breakdown"
+        ],
+        "count": 2
+    },
+    "Logic_Deviation": {
+        "values": [
+            "Logic_Deviation"
+        ],
+        "count": 1
+    }
+}

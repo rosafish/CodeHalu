@@ -1,0 +1,92 @@
+{
+    "1077": {
+        "{\"inputs\": [\"4 4\\n1000000000 100 7 1000000000\\n\"], \"outputs\": [\"1 4\\n1 2 3 4 \\n\"]}": [
+            [
+                {
+                    "name": "IndexError",
+                    "value": "  File \"<string>\", line 13, in code\nIndexError: list index out of range"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"1 1\\n381183829\\n\"], \"outputs\": [\"1 1\\n1 \\n\"]}": [
+            [
+                {
+                    "name": "IndexError",
+                    "value": "  File \"<string>\", line 13, in code\nIndexError: list index out of range"
+                }
+            ]
+        ]
+    },
+    "1401": {
+        "{\"inputs\": [\"8\\n2 19 83 95 9 87 15 6\\n6 16\\n7 98\\n5 32\\n7 90\\n8 37\\n2 -34\\n1 -83\\n\"], \"outputs\": [\"5\\n\"]}": [
+            [
+                {
+                    "name": "IndexError",
+                    "value": "  File \"<string>\", line 14, in code\nIndexError: list index out of range"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"5\\n91 61 4 61 35\\n5 75\\n2 13\\n2 -15\\n1 90\\n\"], \"outputs\": [\"4\\n\"]}": [
+            [
+                {
+                    "name": "IndexError",
+                    "value": "  File \"<string>\", line 14, in code\nIndexError: list index out of range"
+                }
+            ]
+        ]
+    },
+    "1970": {
+        "{\"inputs\": [\"2\\n........\\n........\\n......#.\\nK..##..#\\n.......#\\n...##..#\\n......#.\\nK.......\\n\\n........\\n........\\n..#.....\\n..#..#..\\n..####..\\n...##...\\n........\\n....K#K#\\n\"], \"outputs\": [\"YES\\nNO\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"2\\n....#..K\\n...#....\\n..##.#..\\n.#.#.#..\\n.#.....#\\n.#......\\n###.....\\nK#.#....\\n\\nK.#.....\\n..#...#.\\n#.....#.\\n..#.#..#\\n#.......\\n..#..#..\\n....#...\\nK..##.##\\n\"], \"outputs\": [\"NO\\nNO\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    },
+    "2506": {
+        "{\"inputs\": [\"9 14\\n1 3 5 110 24 21 34 5 3\\n\"], \"outputs\": [\"1837\\n\"]}": [
+            [
+                {
+                    "name": "NameError",
+                    "value": "  File \"<string>\", line 15, in code\nNameError: name 'random' is not defined"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"9 73\\n67597 52981 5828 66249 75177 64141 40773 79105 16076\\n\"], \"outputs\": [\"8128170\\n\"]}": [
+            [
+                {
+                    "name": "NameError",
+                    "value": "  File \"<string>\", line 15, in code\nNameError: name 'random' is not defined"
+                }
+            ]
+        ]
+    },
+    "3218": {
+        "{\"inputs\": [\"3\\n-1 2 -1\\n2 2\\n-1 -1 -1\\n\"], \"outputs\": [\"4\\n\"]}": [
+            [
+                {
+                    "name": "ValueError",
+                    "value": "  File \"<string>\", line 14, in code\nValueError: invalid literal for int with base 10: '-1 2 -1'"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"3\\n-1 2 -1\\n2 2\\n1 -1 1\\n\"], \"outputs\": [\"1\\n\"]}": [
+            [
+                {
+                    "name": "ValueError",
+                    "value": "  File \"<string>\", line 14, in code\nValueError: invalid literal for int with base 10: '-1 2 -1'"
+                }
+            ]
+        ]
+    }
+}

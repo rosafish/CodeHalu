@@ -120,9 +120,13 @@ def load_generation(input_file):
     return generations, data, in_out  
 
 def evaluate_generations(generations, samples,in_out, idx=None, debug=False):
+
+
+    count = 0
     
     results = {}
     errors = {}
+    samples_return = {}
     tokenizer = AutoTokenizer.from_pretrained(
             'codellama/CodeLlama-7b-Instruct-hf',  
             use_fast=True,
@@ -130,18 +134,30 @@ def evaluate_generations(generations, samples,in_out, idx=None, debug=False):
         )
 
     for task_id, problem_generations in tqdm(generations.items()):
+
+        count += 1
+        if count > 5:
+            break
         
         sample = samples[task_id]
+        samples_return[task_id] = sample
         original_input_output = sample["input_output"] 
         input_output = in_out[task_id]
         
         if task_id not in results:
             results[task_id] = {}
             errors[task_id] = {}
+
+        _count = 0
       
         for o_idx, o in enumerate(problem_generations):
-            
-            data = json.loads(sample['input_output'])
+
+            _count += 1
+            if _count > 2:
+                continue
+
+            samples_return[task_id]['generated_code'] = o
+            samples_return[task_id]['inout'] = json.dumps(input_output[o_idx])
             
             sample["input_output"] = json.dumps(input_output[o_idx]) 
             key = json.dumps(input_output[o_idx]) 
@@ -186,7 +202,7 @@ def evaluate_generations(generations, samples,in_out, idx=None, debug=False):
                 results[task_id][key].append(curr_res)
                 errors[task_id][key].append(curr_err)
 
-    return results,errors
+    return results,errors, samples_return
 
 
 
@@ -223,13 +239,17 @@ def main(args):
             'inputs': [problem['input']],
             'outputs': [problem['output']]
         })
+
+    problems = {
+        item['task_id']: item for item in problems
+    }
     
     generation_file = args.generation_file
     halu_type = args.halu_type
 
     generations,ori_datas,in_out = load_generation(generation_file)
     
-    results,errors = evaluate_generations(generations, problems,in_out)
+    results,errors,samples = evaluate_generations(generations, problems,in_out)
 
     task_id_to_data = {item['task_id']: item for item in ori_datas}
 
@@ -278,8 +298,17 @@ def main(args):
 
     print(errors_dict)  
      
-    with open(f'evaluated_results/{args.halu_type}_errors_dict.json', 'w') as json_file:
+    with open(f'sample5_evaluated_results/{args.halu_type}_errors_dict.json', 'w') as json_file:
         json.dump(errors_dict, json_file, indent=4)
+
+    with open(f'sample5_evaluated_results/{args.halu_type}_results.json', 'w') as json_file:
+        json.dump(results, json_file, indent=4)
+
+    with open(f'sample5_evaluated_results/{args.halu_type}_errors.json', 'w') as json_file:
+        json.dump(errors, json_file, indent=4)
+
+    with open(f'sample5_evaluated_results/{args.halu_type}_samples.json', 'w') as json_file:
+        json.dump(samples, json_file, indent=4)
     
   
 

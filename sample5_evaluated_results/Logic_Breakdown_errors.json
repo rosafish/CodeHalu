@@ -1,0 +1,92 @@
+{
+    "3559": {
+        "{\"inputs\": [\"2\\n0 0\\n0 0\\n1.\\n..\\n0\\n\"], \"outputs\": [\"1.\\n..\\n\"]}": [
+            [
+                {
+                    "name": "ValueError",
+                    "value": "  File \"<string>\", line 74, in code\nValueError: invalid literal for int with base 10: '0 0'"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"2\\n0 0\\n0 0\\n1.\\n.2\\n100\\n\"], \"outputs\": [\"..\\n..\\n\"]}": [
+            [
+                {
+                    "name": "ValueError",
+                    "value": "  File \"<string>\", line 74, in code\nValueError: invalid literal for int with base 10: '0 0'"
+                }
+            ]
+        ]
+    },
+    "2758": {
+        "{\"inputs\": [\"Red\\nRed\\n\"], \"outputs\": [\"Red 0.937500000\\nCream 0.062500000\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"Lilac-Cream Tortie\\nBlue\\n\"], \"outputs\": [\"Blue 0.375000000\\nCream 0.250000000\\nBlue-Cream Tortie 0.187500000\\nLilac 0.125000000\\nLilac-Cream Tortie 0.062500000\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ]
+    },
+    "3039": {
+        "{\"inputs\": [\"......\\n......\\n######\\n......\\n......\\n......\\n\"], \"outputs\": [\"cannot fold\\n\"]}": [
+            [
+                {
+                    "name": "Logic Breakdown",
+                    "value": "Logic Breakdown"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"......\\n#.....\\n####..\\n#.....\\n......\\n......\\n\"], \"outputs\": [\"can fold\\n\"]}": [
+            [
+                {
+                    "name": "Logic Breakdown",
+                    "value": "Logic Breakdown"
+                }
+            ]
+        ]
+    },
+    "2723": {
+        "{\"inputs\": [\"1 13\\n1 + 2 * 3 - 4\\n\"], \"outputs\": [\"3\\n\"]}": [
+            [
+                {
+                    "name": "ValueError",
+                    "value": "  File \"<string>\", line 53, in code\n  File \"<string>\", line 31, in evaluate_formula\nValueError: '3' is not in list"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"2 16\\n  _________     \\n\\\\/3 * 4 - 3 + 10\\n\"], \"outputs\": [\"13\\n\"]}": [
+            [
+                {
+                    "name": "ValueError",
+                    "value": "  File \"<string>\", line 53, in code\n  File \"<string>\", line 31, in evaluate_formula\nValueError: '3' is not in list"
+                }
+            ]
+        ]
+    },
+    "102": {
+        "{\"inputs\": [\"6\\n\"], \"outputs\": [\"six\\n\"]}": [
+            [
+                {
+                    "name": "Correct",
+                    "value": "Correct"
+                }
+            ]
+        ],
+        "{\"inputs\": [\"99\\n\"], \"outputs\": [\"ninety-nine\\n\"]}": [
+            [
+                {
+                    "name": "Logic_Deviation",
+                    "value": "Logic_Deviation"
+                }
+            ]
+        ]
+    }
+}
